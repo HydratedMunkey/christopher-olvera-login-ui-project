@@ -1,0 +1,16 @@
+body {
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#surround{
+    display: flexbox;
+    justify-content: center;
+}
+
+#login-box {
+    display: flexbox;
+    border: 2px solid green;
+    height: 30%;
+    width: 30%;
+}
