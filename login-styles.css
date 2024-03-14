@@ -1,16 +1,55 @@
-body {
-    /* justify-content: center; */
-    align-items: center;
+:root{
+    --main-bg-color: #C4E7D4;
+    --text-color: #CEB5B7;
+    --login-box-color: #426B69;
 }
 
-#surround{
-    display: flexbox;
+html, body {
+    height: 100%;
+    min-height: 100%;
+    background-color: var(--main-bg-color);
+}
+
+body {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 98vh;
+}
+
+#login-text {
+    font-size: 3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--text-color);
 }
 
 #login-box {
-    display: flexbox;
-    border: 2px solid green;
-    height: 30%;
-    width: 30%;
+    display: flex;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px #233D4D;
+    min-width: 20%;
+    min-height: 40%;
+    background-color: var(--login-box-color);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#login-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.text-input {
+    border-radius: 5px;
+}
+
+#sign-in-button {
+    min-width: 40%;
+    min-height: 30%;
+    color: var(--text-color);
+    background-color: #233D4D;
 }
