@@ -7,7 +7,6 @@
 
 html, body {
     height: 100%;
-    min-height: 100%;
     background-color: var(--main-bg-color);
 }
 
@@ -16,11 +15,10 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
-    height: 98vh;
 }
 
 #login-text {
-    font-size: 3rem;
+    font-size: 4rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--text-color);
 }
@@ -29,8 +27,8 @@ body {
     display: flex;
     border-radius: 10%;
     box-shadow: 5px 5px 5px var(--secondary-color);
-    min-width: 20%;
-    min-height: 40%;
+    min-width: 500px;
+    min-height: 400px;
     background-color: var(--login-box-color);
     justify-content: center;
     align-items: center;
@@ -38,23 +36,29 @@ body {
 }
 
 #login-details {
+    font-size: 16px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     gap: 10%;
-    min-height: 100%;
-    height: 100%;
+    min-height: 50%;
+    width: 80%
 }
 
 .text-input {
-    border-radius: 5px;
-    /* width: 100%; */
+    /* border-radius: 5px; */
+    font-size: 1.3rem;
+    width: 100%;
+    height: 30px;
+    border: 0px 0px 0px 0px;
+    background-color: var(--text-color);
 }
 
 #sign-in-button {
-    margin-top: 10%;
-    min-width: 40%;
-    height: 100%;
+    margin-top: 5px;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 50px;
     color: var(--text-color);
     background-color: var(--secondary-color);
 }
