@@ -12,6 +12,7 @@ html, body {
 
 body {
     display: flex;
+    overflow: hidden;
     justify-content: center;
     align-items: center;
     align-content: center;
