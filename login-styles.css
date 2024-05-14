@@ -19,7 +19,7 @@ body {
 }
 
 #login-text {
-    font-size: 4rem;
+    /* font-size: 4rem; */
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--text-color);
 }
@@ -28,8 +28,13 @@ body {
     display: flex;
     border-radius: 10%;
     box-shadow: 5px 5px 5px var(--secondary-color);
-    min-width: 500px;
-    min-height: 400px;
+    min-width: 300px;
+    width: 35%;
+    height: 40%;
+    min-height: 320px;
+    /* font-size: calc(1.375rem + 1.5vw); */
+    font-size: calc(2.3rem + 1vw);
+    padding-bottom: 5%;
     background-color: var(--login-box-color);
     justify-content: center;
     align-items: center;
@@ -41,17 +46,19 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 10%;
     min-height: 50%;
     width: 80%
 }
 
 .text-input {
-    border-radius: 5px;
     font-size: 1.3rem;
+    border-radius: 5px;
     width: 100%;
-    height: 30px;
-    padding: 0px 0px 0px 0px;
+    height: 20%;
+    /* height: 30px; */
+    /* padding: 0px 0px 0px 10px; */
+    border: 0px;
+    outline: 2px solid black;
     background-color: var(--text-color);
 }
 
